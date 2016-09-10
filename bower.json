@@ -1,6 +1,6 @@
 {
   "name": "angular-live-pusher-message",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "live message directive for angular using pusher.",
   "authors": [
     "Sebastian Durán <yo@sebaduran.com>"
@@ -18,15 +18,18 @@
     "app",
     "styles"
   ],
-  "dependencies": {
+  "devDependencies": {
     "angular": "~1.5.8",
     "angular-ui-router": "~0.3.1",
-    "angular-moment": "~0.10.3",
     "angular-sanitize": "~1.5.8",
+    "pusher-angular": "~0.1.9",
+    "angular-live-pusher-message": "*"
+  },
+  "dependencies": {
+    "angular": "~1.5.8",
     "pusher-angular": "~0.1.9"
   },
   "resolutions": {
     "angular": "~1.5.8"
   }
 }
-

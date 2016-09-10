@@ -6,10 +6,11 @@
         "bower_components/moment/locale/es.js",
         "bower_components/angular-moment/angular-moment.js",
         "bower_components/angular-ui-router/release/angular-ui-router.min.js",
-        "bower_components/pusher-angular/lib/pusher-angular.js"
+        "bower_components/pusher-angular/lib/pusher-angular.js",
+        "bower_components/angular-live-pusher-message/angular-live-pusher-message/js/angular-live-pusher-message.js"
     ],
     "styles": [
         "styles/style.css",
-        "styles/angular-live-pusher-message.css"
+        "bower_components/angular-live-pusher-message/angular-live-pusher-message/js/angular-live-pusher-message.css"
     ]
 }
