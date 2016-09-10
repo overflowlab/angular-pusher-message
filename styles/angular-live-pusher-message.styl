@@ -1,0 +1,48 @@
+@import '../node_modules/jeet/stylus/jeet/_jeet'
+@import 'globals'
+
+#live-message-container
+	width 300px
+	position fixed
+	right 15px
+	background-color rgba(255, 255, 255, 0.8)
+	box-sizing border-box
+	padding 10px
+	border-radius 5px
+	box-shadow 0 0 3px 0 rgba(0, 0, 0, .1)
+	transition .3s cubic-bezier(0, 0, 0.04, 1.01) all
+	top -300px
+	&.show 
+		top 15px
+	.close
+		position absolute
+		top 3px
+		right 5px
+		cursor pointer
+		color rgba(0, 0, 0, .2)
+		transition .2s cubic-bezier(0, 0, 0.04, 1.01) color
+		&:hover
+			color rgba(0, 0, 0, .7)
+	.ico
+		span(2/12)
+		text-align justify
+		font-size 28px
+	p
+		span(10/12)
+		font-size 12px
+		text-align left
+	.actions
+		span(1/1)
+		box-sizing border-box
+		text-align right
+		border-top 1px dotted #efefef
+		padding-top 10px
+		margin-top 10px
+		a
+			text-decoration none
+			padding 5px
+			font-size 10px
+			color #fff
+			background-color success-color
+			border-radius 3px
+		
