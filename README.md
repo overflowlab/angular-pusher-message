@@ -45,4 +45,9 @@ The sctructure of message is:
 }
 ```
 
+Send mesagges here to test
+```sh
+https://dashboard.pusher.com/apps/[APP ID]/console/realtime_messages
+```
+
 [TODO: HOW CONTRIBUTE]
