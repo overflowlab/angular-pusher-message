@@ -11,6 +11,6 @@
     ],
     "styles": [
         "styles/style.css",
-        "bower_components/angular-live-pusher-message/angular-live-pusher-message/js/angular-live-pusher-message.css"
+        "bower_components/angular-live-pusher-message/angular-live-pusher-message/css/angular-live-pusher-message.css"
     ]
 }
