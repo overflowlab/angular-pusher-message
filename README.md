@@ -30,6 +30,19 @@ When the module is injected, you are fre to use the directive:
 ```sh
 <live-message options="{ client: '[CLIEN ID]', channel: '[YOUR CHANNEL]', event: '[YOUR EVENT]' }"></live-message>
 ```
-The client, channel and event need be configurated in pusher.com
+*The client, channel and event need be configurated in pusher.com*
+
+The sctructure of message is:
+
+```sh
+{
+    "type": "success",
+    "text": "Flash news!! The president Obama play pokemon go",
+    "action": {
+        "name": "more info",
+        "url": "http://www.google.com"
+    }
+}
+```
 
 [TODO: HOW CONTRIBUTE]
